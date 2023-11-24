@@ -40,6 +40,7 @@ public class RadioTest {
 
         Assertions.assertEquals(expected, actuale);
     }
+
     @Test
     public void shouldSetCurrentVolumeAboveMax() {
         Radio rad = new Radio();
@@ -137,6 +138,7 @@ public class RadioTest {
         Assertions.assertEquals(expected, actual);
 
     }
+
     @Test
     public void shouldSetPrevRadioStationBelowMin() {
         Radio rad = new Radio();
@@ -148,6 +150,7 @@ public class RadioTest {
         Assertions.assertEquals(expected, actual);
 
     }
+
     @Test
     public void shouldSetNextRadioStationAboveMax() {
         Radio rad = new Radio();
