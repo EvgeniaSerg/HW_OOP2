@@ -34,7 +34,7 @@ public class RadioTest {
 
     @Test
     public void shouldSetCurrentVolumeMax() {
-        Radio rad = new Radio(23);
+        Radio rad = new Radio();
         rad.setCurrentVolume(100);
 
         int expected = 100;
@@ -45,7 +45,7 @@ public class RadioTest {
 
     @Test
     public void shouldSetCurrentVolumeAboveMax() {
-        Radio rad = new Radio(13);
+        Radio rad = new Radio();
         rad.setCurrentVolume(1023);
 
         rad.increaseVolume();
